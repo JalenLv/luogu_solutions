@@ -30,9 +30,14 @@
 *.exe
 *.out
 *.app
+main
 
 # Cmake
 build/
 
 # Clangd index
 .cache/
+
+# Rust
+target/
+Cargo.lock
